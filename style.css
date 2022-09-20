@@ -104,12 +104,17 @@ body {
   text-align: center;
 }
 .textoenfoto {
-  position:absolute;
+  /*position:absolute;*/
   text-align: right;
   color: white;
   flex: 0 0 auto;
   width: 25%;
   padding: 40px;
+
+
+  
+
+
 }
 .boton2 {
   background-color: transparent;
