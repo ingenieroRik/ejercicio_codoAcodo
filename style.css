@@ -110,24 +110,19 @@ body {
   flex: 0 0 auto;
   width: 30%;
   padding: 300px;
-
-
-  
-
-
 }
 .boton2 {
   background-color: transparent;
   border: 1px solid white;
   border-radius: 3px;
   color: white;
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
 }
 .boton3 {
   background-color: green;
   border-radius: 3px;
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
   color: white;
 }
