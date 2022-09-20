@@ -108,8 +108,8 @@ body {
   text-align: right;
   color: white;
   flex: 0 0 auto;
-  width: 25%;
-  padding: 40px;
+  width: 30%;
+  padding: 300px;
 
 
   
@@ -375,7 +375,9 @@ body {
   #item2 {
     width: auto;
   }
-  
+  .textoenfoto{
+    padding: 4px;
+  }
   
   .nav-menu {
     flex-direction: column;
@@ -433,6 +435,8 @@ body {
     
     width: 100%;
   }
-  
+  .textoenfoto{
+    padding: 50px;
+  }
 
 }
