@@ -12,7 +12,7 @@ navToggle.addEventListener("click", () => {
 });
 
 const precio = 200;
-const descuentoEstudiante = 0.8;
+const descuentoEstudiante = 0.2;
 const descuentoJunior = 0.85;
 const descuentoTrainee = 0.5;
 
