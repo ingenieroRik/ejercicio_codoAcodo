@@ -5,12 +5,9 @@ body {
 }
 
 .header {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-
   background-color: #454647;
   height: 80px;
   position: fixed;
@@ -19,12 +16,12 @@ body {
   left: 0;
 }
 
-
 .nav {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  list-style: none;
 }
 
 .nav-link {
@@ -45,8 +42,6 @@ body {
 
 .nav-menu {
   display: flex;
-  
-
   margin-right: 40px;
   list-style: none;
 }
@@ -269,7 +264,6 @@ body {
   width: 50%;
   flex-direction:row;
   justify-content: center;
-  
   background-color: white;
   padding: 0 ;
 }
@@ -278,12 +272,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
   width: 100%;
   margin-top: 20px;
   border-radius: 6px;
 }
-.footer {
+
+.footer{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -296,57 +290,12 @@ body {
   left: 0;
   right: 0;
   padding-bottom: 0px;
-  margin-bottom: 0;
-
-  
-}
-.barrainferior {
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #454647;
-  list-style: none;
-  transition: left 0.3s;
-  font-size: 10px;
-  margin: 0;
-  width: max-content;
-
-}
-.pie-menu-link {
-  padding: 20px 0 20px 0  ;
-  border-radius: 3px;
-  
-}
-
-.pie-link:hover {
-  color: white;
-  transition: 0.5s;
-}
-.pie-link {
-  color: white;
-  text-decoration: none;
-  color: gray;
-}
-.pie-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  
-
-}
-.pie-menu-item{
-  
-  font-size: 18px;
-  margin: 0  20px;
-  margin-top: 0;
-  width: max-content;
+  margin-bottom: 0; 
   
 }
 
 /* MOBILE */
-@media (max-width: 600px) {
+@media (max-width: 991px) {
   body {
     padding-top: 70px;
   }
@@ -387,18 +336,12 @@ body {
     transition: left 0.3s;
   }
 
-  .nav-menu-item {
-    line-height: 70px;
-    
-  }
-
   .nav-menu-link:hover,
   .nav-menu-link_active {
     background: none;
     color: #83c5f7;
   }
   
-
   .nav-toggle {
     display:block;
 
@@ -411,27 +354,35 @@ body {
   .nav-toggle:focus:not(:focus-visible) {
     outline: none;
   } 
-  
-}
 
+/*
 @media (max-width: 991px){
-
+  */
   .footer {
-   
-    justify-content:flex-start;
-    height: 200px;
+    position: relative;
+    justify-content:flex;
+    height: 50px;
+    flex-direction: column;
+      width: auto;
+      align-items: center;
+
   }
   
-  .pie-menu {
-    
-    flex-direction: column; 
-  }
-  #orador {
-    
+  #orador { 
     width: 100%;
   }
   .textoenfoto{
     padding: 50px;
   }
 
+  .nav{
+    width: auto;
+  }
+  .nav-menu-item{
+    font-size: 9px;
+    margin: 0;
+    align-items: center;
+    line-height: 50px;
 }
+}
+
