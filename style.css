@@ -121,6 +121,16 @@ body {
   text-decoration: none;
   color: white;
 }
+.boton4 {
+  background-color: orange;
+  border-radius: 3px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  
+}
+
 #item0 {
   background-color: white;
   width: 100%;

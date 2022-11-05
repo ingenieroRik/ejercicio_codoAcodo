@@ -18,6 +18,9 @@ const descuentoTrainee = 0.5;
 
 
 function borrarTodo(){
+
+
+
   document.getElementById("cantidad").value = 0;
   document.getElementById("totalPagar").value = "Total a pagar:$0";
   //document.getElementById("nombre").value= "Nombre";
