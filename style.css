@@ -121,6 +121,21 @@ body {
   text-decoration: none;
   color: white;
 }
+.boton3:hover{
+  background-color: white;
+  transition: 0.5s;
+  color:green;
+}
+
+.boton2:hover{
+  background-color: white;
+  transition: 0.5s;
+  color: black;
+}
+
+
+
+
 .boton4 {
   background-color: orange;
   border-radius: 3px;
