@@ -16,7 +16,7 @@ const descuentoEstudiante = 0.2;
 const descuentoJunior = 0.85;
 const descuentoTrainee = 0.5;
 
-
+/*
 function borrarTodo(){
 
 
@@ -28,6 +28,7 @@ function borrarTodo(){
   //document.getElementById("correo").value= "correo";
   return;
 }
+*/
 
 function calculaResumen(){
       let cantidad=parseInt(document.getElementById("cantidad").value);   
@@ -87,5 +88,5 @@ function calculaResumen(){
 }
 
 
-botonBorrar.addEventListener('click', borrarTodo);
+//botonBorrar.addEventListener('click', borrarTodo);
 botonResumen.addEventListener('click', calculaResumen);
